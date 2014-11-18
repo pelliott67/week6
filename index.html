@@ -8,37 +8,52 @@
   <script src="javascript/script.js"></script>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="">link1</a></li>
-        <li><a href="">link2</a></li>
-        <li><a href="">link3</a></li>
-        <li><a href="">link4</a></li>
-        <li><a href="">link5</a></li>
-        <li><a href="">link6</a></li>
-      </ul>
-    </nav>  
-  </header>
-  
-  <div class="main">
-    <p>Already been assimilated? Sign in!</p>
-    <button id="sign-in" class="skip" onClick="signIn();">Sign in</button>
-    <p><button id="hint" onClick="giveHint();">Give me a hint...</button></p>
-    <p id="hint-display"></p>
-      
-    <p>Tired of futiley resisting? Sign up!</p>
-    <button id="sign-up" class="skip" onClick="signUp();">Sign up</button>
-
-      <p id="output-here"></p>
     
-  </div>
-  
-  <footer>
-    <i class="fa fa-facebook"></i>
-    <i class="fa fa-github"></i>
-    <i class="fa fa-linkedin"></i>
-  </footer>
+<div id="page-container"> <!-- no semantic value, (layout only) so using div -->
+    
+    <div id="left-column"> <!-- no semantic value (layout only) so using div -->
+        <p>(This is the left column.)</p>
+    </div> 
+    
+       <header>
+       <nav>
+          <ul>
+            <li><a href="">link1</a></li>
+            <li><a href="">link2</a></li>
+            <li><a href="">link3</a></li>
+            <li><a href="">link4</a></li>
+            <li><a href="">link5</a></li>
+            <li><a href="">link6</a></li>
+          </ul>
+        </nav>  
+    </header>
+
+    <section id="main-content">
+        <p>Already been assimilated? Sign in!</p>
+        <button id="sign-in" class="skip" onClick="signIn();">Sign in</button>
+        <p><button id="hint" onClick="giveHint();">Give me a hint...</button></p>
+        <p id="hint-display"></p>
+
+        <p>Tired of futiley resisting? Sign up!</p>
+        <button id="sign-up" class="skip" onClick="signUp();">Sign up</button>
+
+          <p id="output-here"><br/></p>
+   </section>
+        
+    <div id="right-column"> <!-- no semantic value (layout only) so using div -->
+        <aside>
+            <p>(The css was to see if I could figure out how to make a 3-column layout from scratch with content in all 3 columns. I still haven't figured out how to do it and get                  good resize behavior.) </p>
+        </aside>    
+    </div>
+    
+    <footer>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-github"></i>
+        <i class="fa fa-linkedin"></i>
+    </footer>
+
+    
+</div> 
   
 </body>
 </html>

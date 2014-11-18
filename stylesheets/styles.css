@@ -1,6 +1,80 @@
-/*  View example button styles here: http://hellohappy.org/css3-buttons/ 
-    Then view their code here:  https://github.com/ubuwaits/css3-buttons
-    Pick two that you like, and copy the css code from repo to style the two buttons on index.html. */
+/* Global styles */
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Page layout styles */
+
+#page-container {
+    background: #353C43;
+}
+
+#left-column {
+    padding: 20px;
+    margin: 0;
+    float: left;
+    width 200px;
+}
+
+header {
+    background: #353C43;
+    height: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+nav {
+    padding-top: 15px;
+    padding-right: 25px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    font-size: 1.25em;
+    padding-right: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #60A8AF;
+}
+
+#main-content {
+    background: #60A8AF;
+    padding: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    background: #353C43;
+    margin-left: 200px;
+    margin-right: 200px; 
+    height: 60px;
+}
+
+#right-column {
+    /*background: orange;*/
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    margin: 0;
+    float: right;
+    width: 150px;
+}
+
+
+
+/*  Button styles */
 
 button.skip { 
     background-color: #8c9cbf; 
