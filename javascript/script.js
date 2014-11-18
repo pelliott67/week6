@@ -15,7 +15,7 @@ function signIn() {
 }
 
 function giveHint() {
-    alert("I'd try '" + password + "' if I were you.");
+   document.getElementById("hint-display").innerHTML = ("I'd try '" + password + "' if I were you.");
 }
 
 

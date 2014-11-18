@@ -111,3 +111,28 @@ button.skip:active {
     -webkit-box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white; 
     box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white; 
 } 
+
+button.hint {
+    /*background-color: linear-gradient(red, blue);/*#334A7F;*/
+    background: -webkit-linear-gradient(#8c9cbf, #334A7F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8c9cbf, #334A7F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8c9cbfd, #334A7F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8c9cbf, #334A7F); /* Standard syntax (must be last) */
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    color: #fff;
+    padding: 7px 0 8px 0;
+    width: 125px;
+    border-radius: 5px; 
+}
+
+button.hint:hover {
+    background: -webkit-linear-gradient(#C0C0C0, #334A7F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#C0C0C0, #334A7F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C0C0C0, #334A7F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C0C0C0, #334A7F); /* Standard syntax (must be last) */
+    border-top: 1px solid #353C43;
+    border-right: 1px solid #353C43;
+    
+    cursor: pointer;
+}
