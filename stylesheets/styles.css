@@ -17,6 +17,7 @@ body {
     margin: 0;
     float: left;
     width 200px;
+    color: #FFFFFF;
 }
 
 header {
@@ -44,7 +45,7 @@ nav li {
 
 nav li a {
     text-decoration: none;
-    color: #60A8AF;
+    color: #FFFFFF;
 }
 
 #main-content {
@@ -70,6 +71,7 @@ footer {
     margin: 0;
     float: right;
     width: 150px;
+    color: #FFFFFF;
 }
 
 
